@@ -1,0 +1,40 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    open-pull-requests-limit: 30
+    directory: '/'
+    schedule:
+      interval: 'weekly'
+
+    groups:
+      prettier:
+        patterns:
+          - prettier*
+      eslint:
+        patterns:
+          - eslint*
+          - "@typescript-eslint*"
+      commitlint:
+        patterns:
+          - "@commitlint*"
+      storybook:
+        patterns:
+          - storybook
+          - "@storybook*"
+      test:
+        patterns:
+          - "@testing-library*"
+          - jest*
+      tailwind:
+        patterns:
+          - tailwind*
+          - "@tailwind*"
+          - autoprefixer
+          - postcss
+      react:
+        patterns:
+          - react
+          - react-dom
+          - "@types/react"
+          - "@types/react-dom"
+

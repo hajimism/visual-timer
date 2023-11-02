@@ -1,0 +1,21 @@
+name: CI
+
+on:
+  workflow_dispatch: null
+  push:
+    paths-ignore:
+      - '**/*.md'
+
+jobs:
+  static-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Clone repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        uses: ./.github/actions/pnpm-install
+      
+      - name: Check
+        run: pnpm run check-ci
