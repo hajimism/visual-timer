@@ -30,8 +30,8 @@ dependencies:
     specifier: 14.0.0
     version: 14.0.0(eslint@8.52.0)(typescript@5.2.2)
   lucide:
-    specifier: ^0.291.0
-    version: 0.291.0
+    specifier: ^0.317.0
+    version: 0.317.0
   next:
     specifier: 14.0.0
     version: 14.0.0(@babel/core@7.23.2)(react-dom@18.2.0)(react@18.2.0)
@@ -9362,8 +9362,8 @@ packages:
     dependencies:
       yallist: 4.0.0
 
-  /lucide@0.291.0:
-    resolution: {integrity: sha512-kpbL8+c8lhlNq90R8oZYWCJaGa462fpw/GsNBNNAy8mcWIOPhNFkuORisREbq4Yr5dsSYohyQnSfrvBE0Efp0g==}
+  /lucide@0.317.0:
+    resolution: {integrity: sha512-B1LoJFdKIUYn1tuU0KoOqohIGYUbL2QrAK1H5EyyGWJN/gu3BtrqZjO+5KdpWSIgU/i4S3y/MvtNWg+jc8Xfgw==}
     dev: false
 
   /lz-string@1.5.0:
